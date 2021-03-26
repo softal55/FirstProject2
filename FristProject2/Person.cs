@@ -7,6 +7,7 @@ namespace FristProject2
     public class Person
     {
         // Change the keyword from 'public' to private 
+        // Good. It works.
         private string Name;
         private int Age;
         private bool HasPet;
