@@ -8,6 +8,7 @@ namespace FristProject2
     {
         // Change the keyword from 'public' to private 
         // Good. It works.
+        // thank you!
         private string Name;
         private int Age;
         private bool HasPet;
