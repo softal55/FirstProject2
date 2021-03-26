@@ -6,6 +6,7 @@ namespace FristProject2
 {
     public class Person
     {
+        // Change the keyword from 'public' to private 
         public string Name;
         public int Age;
         public bool HasPet;
