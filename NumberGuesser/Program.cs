@@ -1,4 +1,6 @@
 ﻿using System;
+// See notes 1 and 2 below.
+
 
 namespace NumberGuesser
 {
@@ -60,6 +62,11 @@ namespace NumberGuesser
             }
         }
 
+        // Note 1:
+        // ------------------------------------------------------------------------------------------
+        // move this method to its own file, named:
+        // GetAppInfo.cs
+        // ------------------------------------------------------------------------------------------
         static void GetAppInfo() {
 
             string appName = "Number Guesser";
@@ -73,6 +80,12 @@ namespace NumberGuesser
             Console.ResetColor();
         }
 
+        // Note 1:
+        // ------------------------------------------------------------------------------------------
+        // move this method to its own file, named:
+        // GetAppInfo.cs
+        // ------------------------------------------------------------------------------------------
+        
         static void GreetUser()
         {
             Console.WriteLine("What is your name?");
