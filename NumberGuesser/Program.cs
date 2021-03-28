@@ -62,38 +62,9 @@ namespace NumberGuesser
             }
         }
 
-        // Note 1:
-        // ------------------------------------------------------------------------------------------
-        // move this method to its own file, named:
-        // GetAppInfo.cs
-        // ------------------------------------------------------------------------------------------
-        static void GetAppInfo() {
-
-            string appName = "Number Guesser";
-            string appVersion = "1.O.O";
-            string appAuthor = "Sofiane Taleb";
-
-            Console.ForegroundColor = ConsoleColor.DarkBlue;
-
-            Console.WriteLine("{0}: Version {1} by {2}", appName, appVersion, appAuthor);
-
-            Console.ResetColor();
-        }
-
-        // Note 1:
-        // ------------------------------------------------------------------------------------------
-        // move this method to its own file, named:
-        // GetAppInfo.cs
-        // ------------------------------------------------------------------------------------------
+       
         
-        static void GreetUser()
-        {
-            Console.WriteLine("What is your name?");
-
-            string inputName = Console.ReadLine();
-
-            Console.WriteLine("Hello {0}, Let's play a game...", inputName);
-        }
+        
 
         static void PrintColorMessage(ConsoleColor color, string message){
 
@@ -105,4 +76,3 @@ namespace NumberGuesser
         }
     }
 }
- // Enjoy the game :)
