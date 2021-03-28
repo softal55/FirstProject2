@@ -2,13 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
+// See Note 1 
 namespace FristProject2
 {
     public class Person
     {
-        // Change the keyword from 'public' to private 
-        // Good. It works.
-        // thank you!
+        // Note 1:
+        // ------------------------------------------------------------------------------------------
+        // To get your program to work, change private to public.
         private string Name;
         private int Age;
         private bool HasPet;

@@ -1,5 +1,7 @@
 ﻿using System;
 
+// To get the program to compile and run.
+// Right-click on 'FirstProject2' then select 'Set as Startup Project'
 namespace FristProject2
 {
     class Program
