@@ -4,9 +4,9 @@ using System.Text;
 
 namespace NumberGuesser
 {
-    class GreetUser
+    class Greeting
     {
-        static void GreetUser()
+        public static void GreetUser()
         {
             Console.WriteLine("What is your name?");
 
@@ -14,5 +14,8 @@ namespace NumberGuesser
 
             Console.WriteLine("Hello {0}, Let's play a game...", inputName);
         }
+
+        
+
     }
 }

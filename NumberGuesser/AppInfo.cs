@@ -4,10 +4,10 @@ using System.Text;
 
 namespace NumberGuesser
 {
-    class GetAppInfo
+    class AppInfo
     {
         
-        static void GetAppInfo()
+        public static void GetAppInfo()
         {
 
             string appName = "Number Guesser";

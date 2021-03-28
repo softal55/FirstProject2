@@ -6,11 +6,9 @@ namespace NumberGuesser
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(String[] args)
         {
-            GetAppInfo();
-
-            GreetUser();
+            
 
             while (true)
             {
@@ -63,10 +61,8 @@ namespace NumberGuesser
         }
 
        
-        
-        
-
-        static void PrintColorMessage(ConsoleColor color, string message){
+        static void PrintColorMessage(ConsoleColor color, string message)
+        {
 
             Console.ForegroundColor = color;
 
