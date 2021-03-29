@@ -10,9 +10,9 @@ namespace FristProject2
         // Note 1:
         // ------------------------------------------------------------------------------------------
         // To get your program to work, change private to public.
-        private string Name;
-        private int Age;
-        private bool HasPet;
+        public string Name;
+        public int Age;
+        public bool HasPet;
 
         public void Greeting()
         {
