@@ -5,14 +5,12 @@ namespace NumberGuesser
 {
     class Program
     {
-        static void Main(String[] args)
+        public static void Main(String[] args)
         {
-            // Homework 1:
-            // Call the 'GetAppInfo'method  to display information about the App
-
-            // Homework 2:
-            // Call the 'GreetUser' method to greet the player
-
+           
+            
+            AppInfo.GetAppInfo();
+            Greeting.GreetUser();
             while (true)
             {
                 Random random = new Random();

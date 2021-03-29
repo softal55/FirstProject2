@@ -4,7 +4,7 @@ using System.Text;
 
 namespace NumberGuesser
 {
-    class AppInfo
+     class AppInfo
     {
         
         public static void GetAppInfo()
