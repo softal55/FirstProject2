@@ -1,5 +1,4 @@
 ﻿using System;
-// See notes 1 and 2 below.
 
 
 namespace NumberGuesser
@@ -8,7 +7,11 @@ namespace NumberGuesser
     {
         static void Main(String[] args)
         {
-            
+            // Homework 1:
+            // Call the 'GetAppInfo'method  to display information about the App
+
+            // Homework 2:
+            // Call the 'GreetUser' method to greet the player
 
             while (true)
             {

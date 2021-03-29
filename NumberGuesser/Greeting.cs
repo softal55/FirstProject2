@@ -14,8 +14,5 @@ namespace NumberGuesser
 
             Console.WriteLine("Hello {0}, Let's play a game...", inputName);
         }
-
-        
-
     }
 }
