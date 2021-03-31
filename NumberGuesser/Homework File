@@ -1,3 +1,1 @@
-﻿See notes in GetAppInfo.cs and Greeting.cs files
-This will break the program.
-Try to fix the program  without using the keyword 'static'
+﻿See 'Note 1' and 'Note 2' in Program.cs

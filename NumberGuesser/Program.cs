@@ -14,6 +14,12 @@ namespace NumberGuesser
             greeting.GreetUser();
             
           
+            // Note:
+            // Move the while loop (starting at line 19) to its own file, with one static method.
+            // Call the file 'RandomNumber.cs'
+            // come up with a good name for the method inside that class
+            // 
+            // 
             while (true)
             {
                 Random random = new Random();
@@ -64,6 +70,9 @@ namespace NumberGuesser
             }
         }
 
+        // Note 2:
+        // Move this mathod to its own file called 'MessagePrinter.cs'
+        // keep it as static
        
         static void PrintColorMessage(ConsoleColor color, string message)
         {
