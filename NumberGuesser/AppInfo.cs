@@ -6,7 +6,7 @@ namespace NumberGuesser
 {
      class AppInfo
     {
-        
+        // Note 2: Remove the keyword 'static'
         public static void GetAppInfo()
         {
 

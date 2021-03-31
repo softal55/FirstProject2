@@ -6,6 +6,7 @@ namespace NumberGuesser
 {
     class Greeting
     {
+        // Note 1: Remove the keyword 'static'
         public static void GreetUser()
         {
             Console.WriteLine("What is your name?");

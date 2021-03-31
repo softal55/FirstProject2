@@ -1,2 +1,3 @@
-﻿1. Delete 'FirstProject2' from the solution, so your solution will have just one project, which is 'NumberGuesser'
-2. See instructions for "Homework 1" and "Homework 2" in "Program.cs""
+﻿See notes in GetAppInfo.cs and Greeting.cs files
+This will break the program.
+Try to fix the program  without using the keyword 'static'
