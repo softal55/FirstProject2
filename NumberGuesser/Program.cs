@@ -7,10 +7,13 @@ namespace NumberGuesser
     {
         public static void Main(String[] args)
         {
-           
+            AppInfo appInfo = new AppInfo();
+            appInfo.GetAppInfo();
+
+            Greeting greeting = new Greeting();
+            greeting.GreetUser();
             
-            AppInfo.GetAppInfo();
-            Greeting.GreetUser();
+          
             while (true)
             {
                 Random random = new Random();
