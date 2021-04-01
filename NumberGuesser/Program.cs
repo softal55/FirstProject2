@@ -5,7 +5,7 @@ namespace NumberGuesser
 {
     class Program
     {
-        public static void Main(String[] args)
+        public static void Main()
         {
             AppInfo appInfo = new AppInfo();
             appInfo.GetAppInfo();
@@ -15,9 +15,9 @@ namespace NumberGuesser
             
             RandomNumber randomNumber = new RandomNumber();
             randomNumber.RandNumb();
-
-           MessagePrinter.PrintColorMessage();
             
+            PrintColorMessage();
+
 
             // Note:
             // Move the while loop (starting at line 19) to its own file, with one static method.

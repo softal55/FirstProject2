@@ -18,6 +18,7 @@ namespace NumberGuesser
             Console.WriteLine(message);
 
             Console.ResetColor();
+            
         }
 
       

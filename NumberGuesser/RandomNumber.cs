@@ -9,11 +9,16 @@ namespace NumberGuesser
 
     class RandomNumber
     {
+
         
+
 
         public void RandNumb()
         {
-           while (true)
+
+            
+
+            while (true)
            {
                 Random random = new Random();
 
